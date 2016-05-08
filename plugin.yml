@@ -1,0 +1,20 @@
+name: TevoHubV2
+description: Runs the hub and vanity system.
+author: Thrusmyster
+main: com.tevonetwork.tevohubv2.TevoHubV2
+version: ALPHA 2.3.1
+website: http://www.tevonetwork.com
+depend: [LibsDisguises, TevoAPI]
+commands:
+    profile:
+        description: Shows the player a GUI interface with all their stats for all games.
+        aliases: stats
+    sethub:
+        description: Sets the specified lobby spawn, Devs Only.
+    tevohub:
+        description: Shows author information, also used for reloads.
+    tutorial:
+        description: Commands for the tutorial system.
+    snowman:
+        description: spawn snowman.
+    
